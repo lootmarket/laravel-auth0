@@ -1,9 +1,11 @@
-<?php namespace Auth0\Login\Middleware;
+<?php
 
-class Auth0OptionalJWTMiddleware extends Auth0JWTMiddleware {
+namespace Auth0\Login\Middleware;
 
-    protected function validateToken($token) {
+class Auth0OptionalJWTMiddleware extends Auth0JWTMiddleware
+{
+    protected function validateToken($token)
+    {
         return true;
     }
-
 }

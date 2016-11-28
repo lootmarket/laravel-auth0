@@ -1,7 +1,9 @@
-<?php namespace Auth0\Login\Contract;
+<?php
 
-interface Auth0UserRepository {
+namespace Auth0\Login\Contract;
 
+interface Auth0UserRepository
+{
     /**
      * @param stdClass $jwt with the data provided in the JWT
      * @return \Illuminate\Contracts\Auth\Authenticatable
@@ -19,5 +21,4 @@ interface Auth0UserRepository {
      * @return \Illuminate\Contracts\Auth\Authenticatable
      */
     public function getUserByIdentifier($identifier);
-
 }

@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -64,7 +64,7 @@ return array(
     |
     */
     // 'authorized_issuers'  => [ 'https://XXXX.auth0.com/' ],
-    
+
     /*
     |--------------------------------------------------------------------------
     |   The authorized token issuers
@@ -74,4 +74,4 @@ return array(
     */
     // 'api_identifier'  => '',
 
-);
+];

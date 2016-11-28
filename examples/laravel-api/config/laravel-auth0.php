@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     /*
     |--------------------------------------------------------------------------
@@ -40,8 +40,8 @@ return array(
     |
     */
 
-    'redirect_uri'  => getenv('AUTH0_CALLBACK_URL')
+    'redirect_uri'  => getenv('AUTH0_CALLBACK_URL'),
 
 
 
-);
+];
