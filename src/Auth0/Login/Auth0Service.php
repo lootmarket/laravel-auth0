@@ -109,6 +109,10 @@ class Auth0Service {
         return $this->apiuser;
     }
 
+    public function getJWT()
+    {
+        return $this->getSDK()->getIdToken();
+    }
 
     public function jwtuser() {
         return $this->apiuser;
